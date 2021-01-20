@@ -30,7 +30,7 @@ public class forgotpassword extends HttpServlet {
                 int otp = (int) (999 + (10000 - 999) * Math.random());
                 
                 new sendsms().send("Your OTP is +" + otp, rs.getString("phoneno"));
-                
+            //hello    
                 out.println(otp);
                 
             } else {
