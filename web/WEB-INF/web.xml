@@ -124,6 +124,14 @@
         <servlet-name>forgotpassword1</servlet-name>
         <servlet-class>forgotpassword1</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>mfp</servlet-name>
+        <servlet-class>mfp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>mfp1</servlet-name>
+        <servlet-class>mfp1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>signin</servlet-name>
         <url-pattern>/signin</url-pattern>
@@ -247,6 +255,14 @@
     <servlet-mapping>
         <servlet-name>forgotpassword1</servlet-name>
         <url-pattern>/forgotpassword1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mfp</servlet-name>
+        <url-pattern>/mfp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>mfp1</servlet-name>
+        <url-pattern>/mfp1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -103,6 +103,10 @@
     {
         window.location.href = "viewcart.jsp";
     }
+    function forgotpassword()
+    {
+        window.location.href = "forgotpassworduser.jsp";
+    }
 
     function searchfn()
     {
@@ -346,6 +350,9 @@
                             <input type="password" placeholder="Enter Password" name="lpassword" id="lpassword" required="">
                         </div>
                         <input type="button" onclick="signlogic()" name="signupbutton" value="Sign Up">
+                        <br>
+                        <br>
+                        <input type="button" onclick="forgotpassword()" value="Forgot Password">
                     </form>
                     <div class="loginresult" id="loginresult" ></div>
                 </div>

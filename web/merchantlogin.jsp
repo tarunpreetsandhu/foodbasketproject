@@ -77,7 +77,9 @@
             {
                 window.location.href = "index.jsp";
             }
-
+function forgotpass(){
+    window.location.href = "mforgotpass.jsp";
+}
 
         </script>
 
@@ -110,22 +112,27 @@
                         <label for="password">Enter Password:</label>
                         <input type="password" class="form-control" style="width: 600px; align-content: center; " placeholder="Enter Password" name="password" id="password" required="">
                     </div>
-<br>
+                    <br>
 
                     <div class="form-group" style="text-align: center">
 
                         <input type="button" onclick="loginlogic()" class="btn btn-primary" name="loginbutton" value="LOGIN">
                     </div>
-<br>
+                    <br>
+                    <div class="form-group" style="text-align: center">
+
+                        <input type="button" onclick="forgotpass()" class="btn btn-primary"  value="FORGOT PASSWORD">
+                    </div>
+                    <br>
                     <div class="loginresult" id="loginresult"></div>
                 </form>
-<br>
+                <br>
             </div>
 
 
         </div>
     </div>
-  <%@include file ="footer.jsp" %>
+    <%@include file ="footer.jsp" %>
 
 </body>
 </html>
