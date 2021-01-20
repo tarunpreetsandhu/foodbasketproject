@@ -127,7 +127,7 @@ function  placeorder(){
             if (this.readyState == 4 && this.status == 200)
             {
                 var res = this.responseText.trim();
-//alert(res);
+
                 if (res == "success")
                 {
                     alert("Order Booked Successfully...");
