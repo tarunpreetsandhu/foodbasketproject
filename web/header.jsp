@@ -345,9 +345,7 @@
                         <div class="styled-input">
                             <input type="password" placeholder="Enter Password" name="lpassword" id="lpassword" required="">
                         </div>
-                        <input type="button" onclick="signlogic()" name="signinbutton" value="Sign In">
-                        <a href="forgotpassworduser.jsp" >
-                            Forgot Password</a>
+                        <input type="button" onclick="signlogic()" name="signupbutton" value="Sign Up">
                     </form>
                     <div class="loginresult" id="loginresult" ></div>
                 </div>

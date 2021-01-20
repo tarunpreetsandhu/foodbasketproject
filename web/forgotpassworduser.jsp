@@ -84,7 +84,7 @@
                                 document.getElementById("changepasswordresult").innerHTML = "OTP has been sent to your phoneno";
 
                                 otp = res;
-                                alert(otp);
+                                console.log(otp);
                             }
 
                         }
@@ -200,7 +200,7 @@
         <br>
         <div class="container">
             <div class="row">
-                <h3 class="tittle-w3l">Change Password
+                <h3 class="tittle-w3l">Forgot Password
                     <span class="heading-style">
                         <i></i>
                         <i></i>
