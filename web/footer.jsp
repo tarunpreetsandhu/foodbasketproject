@@ -138,17 +138,17 @@
                 <div class="social">
                     <ul>
                         <li>
-                            <a class="icon fb" href="#">
+                            <a class="icon fb" href="https://www.facebook.com/">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a class="icon tw" href="#">
+                            <a class="icon tw" href="https://twitter.com/login/">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a class="icon gp" href="#">
+                            <a class="icon gp" href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                         </li>
@@ -156,10 +156,10 @@
                 </div>
                 <div class="agileits_app-devices">
                     <h5>Download the App</h5>
-                    <a href="#">
+                    <a href="https://play.google.com/store">
                         <img src="images/1.png" alt="">
                     </a>
-                    <a href="#">
+                    <a href="https://www.apple.com/app-store/">
                         <img src="images/2.png" alt="">
                     </a>
                     <div class="clearfix"> </div>
@@ -232,8 +232,8 @@
 <!-- copyright -->
 <div class="copy-right">
     <div class="container">
-        <p>© 2017 Grocery Shoppy. All rights reserved | Design by
-            <a href="http://w3layouts.com"> W3layouts.</a>
+        <p>© 2020 Food Basket. All rights reserved | Design by
+            <a> Tarunpreet and Gagandeep</a>
         </p>
     </div>
 </div>
